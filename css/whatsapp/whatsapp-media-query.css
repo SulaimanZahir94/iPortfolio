@@ -1,0 +1,9 @@
+﻿/*#region max-width 460px */
+
+@media screen and (max-width: 460px) {
+    .TalkToMe{
+        display:none;
+    }
+}
+
+/*#endregion */

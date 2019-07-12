@@ -1,0 +1,149 @@
+﻿/*#region Dome */
+
+.imgSkills {
+    width: 110px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.csspadding {
+    padding-top: 15%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.modal-dialog {
+    max-width: 630px !important;
+}
+
+.bg-primary {
+    background: linear-gradient(#3873bd,#0c2e34) !important;
+}
+
+.TalkToMe {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+    .TalkToMe .fab.fa-whatsapp-square {
+        font-size: 50px;
+        color: green;
+    }
+
+.whatsappPopup {
+    display: none;
+    width: 400px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    right: 60px;
+    bottom: 15px;
+    height: 90%;
+}
+
+.mgnTop10 {
+    width: 0px;
+}
+.modalView {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin: 0 auto;
+}
+.imgMySlides {
+    width: 80% !important;
+    height: 100%;
+    margin: 0 76px;
+}
+.column.flex {
+    height: 55px;
+    overflow: hidden;
+    background-color: black;
+    width: 106%;
+}
+.mySlides {
+    width: 100%;
+    background: black;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    height: 475px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(60, 107, 188, 0.8);
+    color: black !important;
+}
+.close.cursor {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+/*#region background-color */
+body {
+    animation-name: lsd;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cid-qVCVbR1CN5 {
+    animation-name: lsd;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lsd {
+    0% {
+        background-color: #f5eeee;
+    }
+
+    33% {
+        background-color: #f1f4ea;
+    }
+
+    66% {
+        background-color: #e2ebee;
+    }
+
+    100% {
+        background-color: #eee3ed;
+    }
+}
+/*#endregion */
+
+/*#endregion */
+
+/*#region media-query */
+
+@media only screen and (max-width: 460px) {
+    .imgMySlides {
+        width: 85% !important;
+        height: 40%;
+        margin: 45% 24px;
+    }
+  }
+@media only screen and (max-width: 360px) {
+    .imgMySlides {
+        width: 85% !important;
+        height: 40%;
+        margin: 50% 24px;
+    }
+  }
+
+/*#endregion */
+

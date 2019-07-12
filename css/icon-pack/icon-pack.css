@@ -1,0 +1,137 @@
+﻿/*-------Icon Pack 2-------*/
+
+.icon-pack2 {
+    padding: 20px;
+}
+
+    .icon-pack2 ul li {
+        list-style-type: none;
+        margin: 15px;
+        padding-right: 5px;
+        display: inline-block;
+    }
+
+    .icon-pack2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .icon-pack2 ul li a .fab {
+            font-size: 30px;
+            color: #262626;
+            line-height: 45px;
+            transition: .5s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -o-transition: .5s;
+        }
+
+        .icon-pack2 ul li a {
+            position: relative;
+            margin: 0 5px;
+            display: block;
+            width: 45px;
+            height: 45px;
+            border-radius: 2px 4px 2px 0px;
+            background-color: #eee;
+            text-align: center;
+            transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+            -webkit-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+            -moz-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+            -o-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+            box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+            transition: .5s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -o-transition: .5s;
+        }
+
+            .icon-pack2 ul li a:before {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: -10px;
+                height: 100%;
+                width: 10px;
+                border-radius: 2px 2px 0px 0px;
+                background-color: #b1b1b1;
+                transform: rotate(0deg) skewY(-45deg);
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -o-transition: .5s;
+            }
+
+            .icon-pack2 ul li a:after {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                right: 5px;
+                height: 10px;
+                width: 100%;
+                border-radius: 2px 2px 2px 0px;
+                background-color: #b1b1b1;
+                transform: rotate(0deg) skewX(-45deg);
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -o-transition: .5s;
+            }
+
+            .icon-pack2 ul li a:hover {
+                transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(10px,-10px);
+                box-shadow: -30px 30px 30px rgba(0,0,0,0.5);
+            }
+
+        .icon-pack2 ul li:hover .fab {
+            color: #fff;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(1) a {
+            background-color: #3b5999;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(2) a {
+            background: #dd4b39;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(3) a {
+            background-color: #e4405f;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(4) a {
+            background-color: #55acee;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(1) a:before {
+            background-color: #2e4a86;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(2) a:before {
+            background: #c13929
+        }
+
+        .icon-pack2 ul li:hover:nth-child(3) a:before {
+            background-color: #d02d4c;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(4) a:before {
+            background-color: #4184b7;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(1) a:after {
+            background-color: #4a69ad;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(2) a:after {
+            background: #e8432f
+        }
+
+        .icon-pack2 ul li:hover:nth-child(3) a:after {
+            background-color: #f1395c;
+        }
+
+        .icon-pack2 ul li:hover:nth-child(4) a:after {
+            background-color: #4d9bde;
+        }
