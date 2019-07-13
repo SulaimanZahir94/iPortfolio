@@ -10,7 +10,7 @@
     }
 
         .icon-pack2 ul {
-            margin-left: -15%;
+            margin-left: 0%;
         }
 
             .icon-pack2 ul li {
@@ -39,7 +39,7 @@
     .imgSkills {
         width: 94px;
         height: 50px;
-        margin-right: 20.5px;
+        margin-right: 15px;
     }
 }
 

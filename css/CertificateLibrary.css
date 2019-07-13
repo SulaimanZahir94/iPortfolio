@@ -115,3 +115,9 @@
     z-index: 10;
     background: #bd5d38;
 }
+
+@media only screen and (max-width: 460px) {
+    .sim-anim-6{
+        transform: translate(-60%, 0%);
+    }
+  }

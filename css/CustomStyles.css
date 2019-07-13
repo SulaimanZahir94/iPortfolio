@@ -89,6 +89,9 @@
     font-size: 60px;
     color: whitesmoke;
 }
+.d-block{
+    font-family: 'Saira Extra Condensed',serif !important;
+}
 
 /*#region background-color */
 body {
@@ -136,12 +139,30 @@ body {
         height: 40%;
         margin: 45% 24px;
     }
+    .icon-pack2{
+        margin-left: -35px;
+    }
+    .list-inline-item:not(:last-child){
+        margin-right:5px; 
+    }
+    .imgSkills{
+        margin-right: 12px;
+    }
+    .sim-anim-6{
+        transform: translate(-60%, 0%);
+    }
   }
 @media only screen and (max-width: 360px) {
     .imgMySlides {
         width: 85% !important;
         height: 40%;
         margin: 50% 24px;
+    }
+    .icon-pack2{
+        margin-left: unset;
+    }
+    .list-inline-item:not(:last-child){
+        margin-right:unset; 
     }
   }
 
