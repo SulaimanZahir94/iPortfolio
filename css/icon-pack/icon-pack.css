@@ -93,7 +93,7 @@
         }
 
         .icon-pack2 ul li:hover:nth-child(2) a {
-            background: #dd4b39;
+            background: #00e676;
         }
 
         .icon-pack2 ul li:hover:nth-child(3) a {
@@ -109,7 +109,7 @@
         }
 
         .icon-pack2 ul li:hover:nth-child(2) a:before {
-            background: #c13929
+            background: #026440;
         }
 
         .icon-pack2 ul li:hover:nth-child(3) a:before {
@@ -125,7 +125,7 @@
         }
 
         .icon-pack2 ul li:hover:nth-child(2) a:after {
-            background: #e8432f
+            background: #5cf7ac;
         }
 
         .icon-pack2 ul li:hover:nth-child(3) a:after {

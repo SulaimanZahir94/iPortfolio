@@ -32,7 +32,7 @@
 
     .TalkToMe .fab.fa-whatsapp-square {
         font-size: 50px;
-        color: green;
+        color: #00e676;
     }
 
 .whatsappPopup {
@@ -66,10 +66,10 @@
 .imgMySlides {
     width: 80% !important;
     height: 100%;
-    margin: 0 76px;
+    margin: 0 120px;
 }
 .column.flex {
-    height: 55px;
+    height: 100px;
     overflow: hidden;
     background-color: black;
     width: 106%;
@@ -79,7 +79,7 @@
     background: black;
     border: 1px solid whitesmoke;
     padding: 10px;
-    height: 475px;
+    height: 500px;
 }
 .prev:hover, .next:hover {
     background-color: rgba(60, 107, 188, 0.8);
