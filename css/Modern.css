@@ -1,0 +1,25 @@
+
+.mb-auto, .my-auto{
+    height: 100vh;
+    padding: 100px;
+}
+.eee{
+    background-color: #eeeeee;
+}
+.rem2{
+    font-size: 2rem;
+}
+.mb-5{
+    font-size: 20px;
+}
+.fontIcon{
+    font-size:30px;
+    color: rgb(40, 40, 40);
+}
+.fontIcon:hover{
+    color: white;   
+}
+.spaceBottom{
+    margin-bottom: 100px !important;
+    text-align: center;
+}
