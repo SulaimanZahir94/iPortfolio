@@ -65,16 +65,58 @@
     <link href="css/whatsapp/whatsapp.css" rel="stylesheet" />
     <script src="js/whatsapp/whatsapp.js"></script>
     <link href="css/whatsapp/whatsapp-media-query.css" rel="stylesheet" />
+    <style>
+        @media only screen and (max-width: 990px) {
+            .d-none {
+                display: block !important;
+                width: 50%;
+                margin: auto;
+            }
+
+            .img-fluid.img-profile.rounded-circle.mx-auto.mb-2 {
+                border: 5px solid #eee;
+                box-shadow: 1px 1px 2px black;
+            }
+
+            .d-block.d-lg-none {
+                font-size: 30px;
+            }
+
+            .navbar-toggler {
+                position: absolute;
+                right: 15px;
+                top: 15px;
+            }
+
+            .userLogo {
+                width: 40px;
+                height: 40px;
+                margin-bottom: -10px;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Sulaiman</span>
-            <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/sulaimanzahir94-gmail.jpg"
-                    alt="Sulaiman Image" />
+            <span class="d-block d-lg-none">
+                <svg id="userLogo" aria-hidden="true" focusable="false" data-prefix="far" data-icon="user-circle"
+                    class="svg-inline--fa fa-user-circle fa-w-16 userLogo" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 496 512">
+                    <path fill="currentColor"
+                        d="M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-39.5 20.8 6.4 40.6 9.6 60.5 9.6s39.7-3.1 60.5-9.6c29.2 1 54.7 16.5 69.6 39.5-35 30.1-80.4 48.4-130.1 48.4zm162.7-84.1c-24.4-31.4-62.1-51.9-105.1-51.9-10.2 0-26 9.6-57.6 9.6-31.5 0-47.4-9.6-57.6-9.6-42.9 0-80.6 20.5-105.1 51.9C61.9 339.2 48 299.2 48 256c0-110.3 89.7-200 200-200s200 89.7 200 200c0 43.2-13.9 83.2-37.3 115.9z" />
+                </svg>
+                <img id="smallImage" class="img-fluid img-profile rounded-circle mx-auto mb-2 userLogo"
+                    src="img/sulaimanzahir94-gmail.jpg" alt="Sulaiman Image" />
+                Sulaiman Zahir
             </span>
+            <div id="imgSection">
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/sulaimanzahir94-gmail.jpg"
+                        alt="Sulaiman Image" />
+                </span>
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,8 +183,9 @@
                     <a href="mailto:sulaimanzahir94@gmail.com"><i class="fas fa-envelope-square"></i>
                         sulaimanzahir94@gmail.com ·</a>
                 </div>
-                <p class="mb-5">I work hard to gain experience that enables me to master my work in the field of programming and development,
-                     especially as I love this area because of the challenges and learning new things daily. </p>
+                <p class="mb-5">I work hard to gain experience that enables me to master my work in the field of
+                    programming and development,
+                    especially as I love this area because of the challenges and learning new things daily. </p>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
@@ -150,8 +193,8 @@
                                 <ul>
                                     <li><a href="https://www.facebook.com/aloore" target="_blank"><i
                                                 class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
-                                    <li><a href="https://wa.me/962780978336" target="_blank"><i
-                                                class="fab fa-whatsapp" aria-hidden="true"></i></a> </li>
+                                    <li><a href="https://wa.me/962780978336" target="_blank"><i class="fab fa-whatsapp"
+                                                aria-hidden="true"></i></a> </li>
                                     <li><a href="https://www.instagram.com/sleman_alouri/" target="_blank"><i
                                                 class="fab fa-instagram" aria-hidden="true"></i></a> </li>
                                     <li><a href="https://twitter.com/Sulaima60256050" target="_blank"><i
@@ -312,7 +355,7 @@
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div class="my-auto">
                 <h2 class="mb-5">Interests</h2>
-                <p>Apart from being a software developer, I enjoy most outdoors, and I care to play sport, 
+                <p>Apart from being a software developer, I enjoy most outdoors, and I care to play sport,
                     and I spend most of my time learning new things, sometimes I love video games.</p>
             </div>
         </section>
@@ -323,6 +366,11 @@
                         <div class="my-auto">
                             <h2 class="mb-5">Certifications</h2>
                             <ul class="fa-ul mb-0">
+                                <li>
+                                    <i class="fa-li fa fa-trophy text-warning"></i>
+                                    Full stack Development Track
+                                    April 2020, Udacity.
+                                </li>
                                 <li>
                                     <i class="fa-li fa fa-trophy text-warning"></i>
                                     ASP.NET Trainee
@@ -381,6 +429,8 @@
                                         onclick="openModal();currentSlide(8)" />
                                     <img src="img/Certifications/9_ASP.jpg" href="#lb-gallery3-7"
                                         onclick="openModal();currentSlide(9)" />
+                                    <img src="img/Certifications/10_FullStack.png" href="#lb-gallery3-7"
+                                        onclick="openModal();currentSlide(10)" />
                                 </div>
                             </div>
                         </div>
@@ -393,49 +443,56 @@
                 <div class="modalView">
 
                     <div class="mySlides">
-                        <div class="numbertext">1 / 9</div>
+                        <div class="numbertext">1 / 10</div>
                         <img src="img/Certifications/1_CSharp.jpg" class="imgMySlides" alt="CSharp" title="CSharp" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">2 / 9</div>
+                        <div class="numbertext">2 / 10</div>
                         <img src="img/Certifications/2_jQuery.jpg" class="imgMySlides" alt="jQuery" title="jQuery">
                     </div>
 
                     <div class="mySlides">
-                            <div class="numbertext">3 / 9</div>
-                            <img src="img/Certifications/3_English01.jpg" class="imgMySlides" alt="English01" title="jQuery">
-                        </div>
+                        <div class="numbertext">3 / 10</div>
+                        <img src="img/Certifications/3_English01.jpg" class="imgMySlides" alt="English01"
+                            title="jQuery">
+                    </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">4 / 9</div>
+                        <div class="numbertext">4 / 10</div>
                         <img src="img/Certifications/4_CSS.jpg" class="imgMySlides" alt="CSS" title="CSS" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">5 / 9</div>
+                        <div class="numbertext">5 / 10</div>
                         <img src="img/Certifications/5_Android.jpg" class="imgMySlides" alt="Android" title="Android" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">6 / 9</div>
+                        <div class="numbertext">6 / 10</div>
                         <img src="img/Certifications/6_SQL.jpg" class="imgMySlides" alt="SQL" title="SQL" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">7 / 9</div>
+                        <div class="numbertext">7 / 10</div>
                         <img src="img/Certifications/7_CPlusPlus.jpg" class="imgMySlides" alt="CPlusPlus"
                             title="CPlusPlus" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">8 / 9</div>
+                        <div class="numbertext">8 / 10</div>
                         <img src="img/Certifications/8_HTML.jpg" class="imgMySlides" alt="HTML" title="HTML" />
                     </div>
 
                     <div class="mySlides">
-                        <div class="numbertext">9 / 9</div>
+                        <div class="numbertext">9 / 10</div>
                         <img src="img/Certifications/9_ASP.jpg" class="imgMySlides" alt="asp" title="asp" />
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="img/Certifications/10_FullStack.png" class="imgMySlides" alt="asp"
+                            title="full stack" />
                     </div>
 
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -446,32 +503,35 @@
                     </div>
 
                     <div class="column flex">
-                        <img class="demo cursor" src="img/Certifications/1_CSharp.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/1_CSharp.jpg" style="width:9%"
                             onclick="currentSlide(1)">
 
-                        <img class="demo cursor" src="img/Certifications/2_jQuery.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/2_jQuery.jpg" style="width:9%"
                             onclick="currentSlide(2)">
 
-                        <img class="demo cursor" src="img/Certifications/3_English01.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/3_English01.jpg" style="width:9%"
                             onclick="currentSlide(3)">
 
-                        <img class="demo cursor" src="img/Certifications/4_CSS.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/4_CSS.jpg" style="width:9%"
                             onclick="currentSlide(4)">
 
-                        <img class="demo cursor" src="img/Certifications/5_Android.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/5_Android.jpg" style="width:9%"
                             onclick="currentSlide(5)">
 
-                        <img class="demo cursor" src="img/Certifications/6_SQL.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/6_SQL.jpg" style="width:9%"
                             onclick="currentSlide(6)" />
 
-                        <img class="demo cursor" src="img/Certifications/7_CPlusPlus.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/7_CPlusPlus.jpg" style="width:9%"
                             onclick="currentSlide(7)">
 
-                        <img class="demo cursor" src="img/Certifications/8_HTML.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/8_HTML.jpg" style="width:9%"
                             onclick="currentSlide(8)">
 
-                        <img class="demo cursor" src="img/Certifications/9_ASP.jpg" style="width:10%"
+                        <img class="demo cursor" src="img/Certifications/9_ASP.jpg" style="width:9%"
                             onclick="currentSlide(9)">
+
+                        <img class="demo cursor" src="img/Certifications/10_FullStack.png" style="width:9%"
+                            onclick="currentSlide(10)">
                     </div>
                 </div>
             </div>
@@ -531,9 +591,9 @@
                                                     title="jQuery" />
                                             </div>
                                             <div class="carousel-item active">
-                                                    <img src="img/Certifications/3_English01.jpg" alt="English01"
-                                                        title="English01" />
-                                                </div>
+                                                <img src="img/Certifications/3_English01.jpg" alt="English01"
+                                                    title="English01" />
+                                            </div>
                                             <div class="carousel-item">
                                                 <img src="img/Certifications/4_CSS.jpg" alt="CSS" title="CSS" />
                                             </div>
@@ -562,6 +622,11 @@
                                             <div class="carousel-item">
                                                 <img src="img/Certifications/9_ASP.jpg" alt="asp" title="asp" />
                                             </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Certifications/10_FullStack.png" alt="full stack"
+                                                    title="full stack" />
+                                            </div>
+
                                         </div>
                                         <a class="carousel-control carousel-control-prev" role="button"
                                             data-slide="prev" href="#lb-gallery3-7">
@@ -685,6 +750,29 @@
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
+
+        $(window).resize(function () {
+
+            if ($(window).width() <= 990) {
+
+                var $page = document.getElementById("page-top");
+
+                $page.onscroll = function () {
+                    if ($(document).scrollTop() > 10) {
+                        $("#imgSection").slideUp(500);
+                        $("#userLogo").hide();
+                        $("#smallImage").slideDown(500);
+                    } else {
+                        $("#imgSection").slideDown(500);
+                        $("#userLogo").show();
+                        $("#smallImage").hide();
+                        // $("#imgSection").attr("style", "display:block !Important");
+                    }
+                };
+            }
+
+        });
+
     </script>
 </body>
 
