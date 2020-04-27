@@ -751,6 +751,10 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
 
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#about").offset().top
+        }, 2000);
+
         $(window).resize(function () {
 
             if ($(window).width() <= 990) {
