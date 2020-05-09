@@ -1,11 +1,23 @@
 ﻿/*#region Dome */
 
+.resume-date.text-md-right.centerImg {
+    padding-right: 35px;
+}
+
+.Layer_5 {
+    float: left;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+.Capa {
+    margin-bottom: -8px;
+}
+
 .imgSkills {
     width: 110px;
     border-radius: 5px;
     box-shadow: 1px 1px 1px grey;
     height: 60px;
-    margin-right: 25px;
 }
 
 .csspadding {
@@ -21,7 +33,7 @@
 }
 
 .bg-primary {
-    background: linear-gradient(#3873bd,#0c2e34) !important;
+    background: linear-gradient(#3873bd, #0c2e34) !important;
 }
 
 .TalkToMe {
@@ -30,10 +42,10 @@
     bottom: 15px;
 }
 
-    .TalkToMe .fab.fa-whatsapp-square {
-        font-size: 50px;
-        color: #00e676;
-    }
+.TalkToMe .fab.fa-whatsapp-square {
+    font-size: 50px;
+    color: #00e676;
+}
 
 .whatsappPopup {
     display: none;
@@ -50,6 +62,7 @@
 .mgnTop10 {
     width: 0px;
 }
+
 .modalView {
     position: relative;
     display: flex;
@@ -58,22 +71,25 @@
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
     outline: 0;
     margin: 0 auto;
 }
+
 .imgMySlides {
     width: 80% !important;
     height: 100%;
     margin: 0 120px;
 }
+
 .column.flex {
     height: 100px;
     overflow: hidden;
     background-color: black;
     width: 106%;
 }
+
 .mySlides {
     width: 100%;
     background: black;
@@ -81,19 +97,28 @@
     padding: 10px;
     height: 500px;
 }
+
 .prev:hover, .next:hover {
     background-color: rgba(60, 107, 188, 0.8);
     color: black !important;
 }
+
 .close.cursor {
     font-size: 60px;
     color: black;
 }
-.d-block{
-    font-family: 'Saira Extra Condensed',serif !important;
+
+.d-block {
+    font-family: 'Saira Extra Condensed', serif !important;
 }
 
 /*#region background-color */
+
+section{
+    background-image: url(../img/BG.png);
+    background-size: cover;
+}
+
 body {
     animation-name: lsd;
     animation-duration: 60s;
@@ -114,19 +139,17 @@ body {
     0% {
         background-color: #f5eeee;
     }
-
     33% {
         background-color: #f1f4ea;
     }
-
     66% {
         background-color: #e2ebee;
     }
-
     100% {
         background-color: #eee3ed;
     }
 }
+
 /*#endregion */
 
 /*#endregion */
@@ -139,32 +162,32 @@ body {
         height: 40%;
         margin: 45% 24px;
     }
-    .icon-pack2{
+    .icon-pack2 {
         margin-left: -35px;
     }
-    .list-inline-item:not(:last-child){
-        margin-right:5px; 
+    .list-inline-item:not(:last-child) {
+        margin-right: 5px;
     }
-    .imgSkills{
+    .imgSkills {
         margin-right: 12px;
     }
-    .sim-anim-6{
+    .sim-anim-6 {
         transform: translate(-60%, 0%);
     }
-  }
+}
+
 @media only screen and (max-width: 360px) {
     .imgMySlides {
         width: 85% !important;
         height: 40%;
         margin: 50% 24px;
     }
-    .icon-pack2{
+    .icon-pack2 {
         margin-left: unset;
     }
-    .list-inline-item:not(:last-child){
-        margin-right:unset; 
+    .list-inline-item:not(:last-child) {
+        margin-right: unset;
     }
-  }
+}
 
 /*#endregion */
-
