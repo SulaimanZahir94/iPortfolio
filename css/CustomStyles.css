@@ -67,14 +67,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 60%;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
     outline: 0;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .imgMySlides {
@@ -84,15 +84,21 @@
 }
 
 .column.flex {
-    height: 100px;
-    overflow: hidden;
-    background-color: black;
-    width: 106%;
+    height: 75px;
+    overflow-x: auto;
+    background-color: #475cce;
+    background: linear-gradient(#475cce,gray);
+    width: 100%;
+}
+
+.demo.cursor {
+    height: 60px;
 }
 
 .mySlides {
     width: 100%;
-    background: black;
+    background: gray;
+    background: linear-gradient(gray,#eee);
     border: 1px solid whitesmoke;
     padding: 10px;
     height: 500px;

@@ -3,7 +3,6 @@
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 70px;
     left: 0;
     top: 0;
     width: 100%;
@@ -92,7 +91,7 @@ img {
 
 .caption-container {
     text-align: center;
-    background-color: black;
+    background-color: #475cce;
     padding: 2px 16px;
     color: white;
 }

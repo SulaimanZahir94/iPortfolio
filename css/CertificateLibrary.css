@@ -3,18 +3,16 @@
 }
 
 .albums-tab-thumb {
-    margin-top: 60px;
-    width: 200px;
     height: 200px;
 }
 
     .albums-tab-thumb img {
-        height: 200px;
-        width: auto;
+        height: 275px;
+        width: 400px;
         background-color: rgba(255,255,255,0.3);
         padding: 10px;
         border-radius: 10px;
-        border: 0.1px solid gray;
+        border: 6px solid gray;
     }
 
 /* Transformations */
@@ -109,11 +107,19 @@
         transform: translate(-5%, 5%) scale(1.2, 1.2) rotate(10deg);
     }
 
+    .sim-anim-6:hover img:nth-child(10) {
+        -ms-transform: translate(-25%, 45%) scale(0.3, 0.3) rotate(-70deg);
+        -moz-transform: translate(-55%, -45%) scale(0.7, 0.7) rotate(-20deg);
+        -o-transform: translate(-75%, -25%) scale(0.7, 0.7) rotate(-20deg);
+        -webkit-transform: translate(-55%, 45%) scale(0.7, 0.7) rotate(-20deg);
+        transform: translate(-95%, 85%) scale(1.2, 1.2) rotate(10deg);
+    }
+
 .albums-tab-thumb.sim-anim-6 img:hover {
     height: 300px;
     transition: all 1s;
     z-index: 10;
-    background: #bd5d38;
+    background: #3671b9;
 }
 
 @media only screen and (max-width: 460px) {
