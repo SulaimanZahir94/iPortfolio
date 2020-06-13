@@ -196,7 +196,6 @@ body {
     padding-top: 10px;
 }
 
-
 .smallImage {
     background-image: url(../img/SulaimanZahir94.jpeg);
     background-size: cover;
@@ -214,12 +213,7 @@ body {
 .navbar-nav {
     text-align: center;
 }
-.close{
-    z-index: 2;
-}
-.modalView{
-    width: 100%;
-}
+
 @keyframes lsd {
     0% {
         background-color: #f5eeee;
