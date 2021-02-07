@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background:rgba(255, 255, 255, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -239,25 +239,27 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-left: -125px;
+  margin-top: -125px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #hero p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
